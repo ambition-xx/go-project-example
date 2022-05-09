@@ -12,6 +12,7 @@ type Post struct {
 	Content    string `json:"content"`
 	CreateTime int64  `json:"create_time"`
 }
+
 type PostDao struct {
 }
 
